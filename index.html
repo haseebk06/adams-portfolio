@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Icons-link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <!-- Style-sheets -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- script-link  -->
+    <script src="js/bootstrap.js" defer></script>
+    <script src="js/script.js" defer></script>
+
+    <title>Portfolio Design</title>
+  </head>
+  <body style="background-color: #373644">
+
+  <!-- header starts -->
+  <header>
+  <!-- Start of navigation bar -->
+  <nav class="container my-3">
+  <!-- Use flexbox to align items in the navigation bar -->
+  <ul class="d-flex align-items-center justify-content-between mynav" id="mynav">
+    <!-- First navigation item with a smiley face icon -->
+    <li>
+      <i class="fas fa-grin-beam"></i>
+      <!-- Link to Adams -->
+      <a href="#"> Adams </a>
+    </li>
+    <!-- Second navigation item with sub-menu items -->
+    <ul class="d-flex align-items-center menu-interior">
+      <!-- Link to Home page -->
+      <li class="mx-4">
+        <a href="#">Home</a>
+      </li>
+      <!-- Link to Portfolio page -->
+      <li class="mx-4">
+        <a href="#Portfolio">Portfolio</a>
+      </li>
+      <!-- Link to Testimonial page -->
+      <li class="mx-4">
+        <a href="#testimonial">Testimonial</a>
+      </li>
+      <!-- Link to Contact page -->
+      <li class="mx-4">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+    <!-- Third navigation item with social media icons -->
+    <li>
+      <!-- Link to Dribbble account -->
+      <a href="#" class="mx-3">
+        <i class="fab fa-dribbble"></i>
+      </a>
+      <!-- Link to LinkedIn account -->
+      <a href="#" class="mx-3">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <!-- Link to toggle menu -->
+      <a href="#" class="mx-3">
+        <i class="fas fa-bars"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- End of navigation bar -->
+
+<!-- Start of the mobile navigation section -->
+<nav class="menu-extras">
+  <!-- Checkbox to control the display of the dropdown menu -->
+  <input type="checkbox" id="check">
+  <!-- Main navigation bar -->
+  <ul class="d-flex align-items-center justify-content-between py-3" id="my-nav">
+    <!-- Branding -->
+    <li>
+      <!-- Icon -->
+      <i class="fas fa-grin-beam"></i>
+      <!-- Brand name -->
+      <a href="#"> Adams </a>
+    </li>
+    <!-- Hamburger menu button -->
+    <li>
+      <!-- Wrapper for the hamburger button -->
+      <label for="check">
+        <a class="mx-3" style="cursor: pointer;">
+          <!-- Icon -->
+          <i class="fas fa-bars" id="hamberger"></i>
+        </a>
+      </label>
+    </li>
+  </ul>
+  <!-- Dropdown menu -->
+  <ul id="menu-extra">
+    <!-- Menu items -->
+    <li class="py-3">
+      <a href="#">Home</a>
+    </li>
+    <li class="py-3">
+      <a href="#Portfolio">Portfolio</a>
+    </li>
+    <li class="py-3">
+      <a href="#testimonial">Testimonial</a>
+    </li>
+    <li class="py-3">
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+</nav>
+<!-- End of the mobile navigation section -->
+
+      <!-- bio starts -->
+      <!-- This is the container for the bio section -->
+<div class="container bio" style="margin-top: 8rem;">
+  <div class="row">
+    <!-- This is the left column, which includes the name and description of the freelancer -->
+    <div class="col-12 col-md-8 my-5">
+      <h1>
+        I'm
+        <!-- This is the name of the freelancer -->
+        <div class="name">James Adams</div>
+      </h1>
+      <hr class="divider" />
+      <p style="max-width: 240px">
+        <!-- This is the description of the freelancer -->
+        A freelancer who provides services of digital programming and
+        design content needs, for all businsesses with more than 10 years
+        of experience.
+      </p>
+    </div>
+    <!-- This is the right column, which includes the services and social icons -->
+    <div class="col-12 col-md-4 my-5 services">
+      <p>
+        Services <br />
+        <h5 style="color: #B5B5C3">
+          Let's build quality in <br> products porgramming and design <br> with
+          services
+        </h5>
+      </p>
+      <!-- This is the button to show more services -->
+      <button class="btn btn-secondary">
+        show more →
+      </button>
+      <!-- This is the container for the social icons -->
+      <ul class="d-flex align-items-center social-icons">
+        <li>
+          <a href="#">
+            <!-- This is the Facebook icon -->
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- This is the Twitter icon -->
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- This is the Instagram icon -->
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <!-- This is the Pinterest icon -->
+            <i class="fab fa-pinterest"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- This is the container for the image -->
+    <div class="image-container">
+      <!-- This is the image -->
+      <img class="image" src="img/image.png" alt="image">
+      <!-- This is the background for the image -->
+      <span class="img-back"></span>
+    </div>
+  </div>
+  <!-- This is the container for the platform images -->
+  <div class="row paltforms-container">
+    <!-- This is the first platform image -->
+    <div class="col-6 col-md-3 my-3"> 
+      <img src="img/meta.png" alt="meta" width="150px">
+    </div>
+    <!-- This is the second platform image -->
+    <div class="col-6 col-md-3 my-3">
+      <img src="img/google.png" alt="google" width="150px">
+            </div>
+            <div class="col-6 col-md-3 my-3">
+                <img src="img/linkedin.png" alt="linkedin" width="150px">
+            </div>
+            <div class="col-6 col-md-3 my-3">
+                <img src="img/slack.png" alt="slack" width="150px" height="70px">
+            </div>
+        </div>
+      </div>
+    </header>
+    <!-- header ends  -->
+
+    <!-- Portfolio container starts -->
+    <section id="Portfolio" class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-6 py-5">
+                    <h2>What Can I Do For <br /> Your Needs</h2>
+                    <p>
+                        It is easier to intrest the work to the <br /> experts becaues they are able to provide <br /> the best result with reliable quality.
+                    </p>
+                    <div class="row">
+                        <div class="col-6">
+                            <h5>250+</h5>
+                            <p>Project Completed</p>
+                        </div>
+                        <div class="col-6">
+                            <h5>100+</h5>
+                            <p>Community Network</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <h5>30+</h5>
+                            <p>Contract Remote</p>
+                        </div>
+                        <div class="col-6">
+                            <h5>10+</h5>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 py-5">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/img1.png" alt="img1" style="float:right;">
+                        </div>
+                        <div class="col-8">
+                            <h6>UI/UX Designs</h6>
+                            <p>
+                                117 Projects <i style="color:#feba17">→</i>
+                            </p> 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/img1.png" alt="img1" style="float:right;">
+                        </div>
+                        <div class="col-8">
+                            <h6>Front End Develop</h6>
+                            <p>
+                                84 Projects <i style="color:#feba17">→</i>
+                            </p> 
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="img/img2.png" alt="img2" style="float:right;">
+                        </div>
+                        <div class="col-8">
+                            <h6>Mobile App Develop</h6>
+                            <p>
+                                32 Projects <i style="color:#feba17">→</i>
+                            </p> 
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container skills">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <p>
+                        <i class="fas fa-window-restore "></i> <br>
+                        <span>UI/UX Design</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam exercitationem eaque nam enim incidunt neque voluptatibus corrupti? Omnis ullam pariatur nam soluta quis beatae expedita vel! Asperiores dignissimos fuga quis.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p>
+                        <i class="fas fa-folder "></i> <br>
+                        <span>Web Development</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur animi nihil, nemo porro vel sequi laudantium debitis similique a exercitationem, voluptatem necessitatibus doloremque sint! Tempora accusamus sit consequatur modi neque.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p>
+                        <i class="fas fa-file-code"></i> <br>
+                        <span>Mobile Development</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt sed sunt atque, beatae qui. Reiciendis maiores doloremque eaque esse a veritatis aperiam optio quam accusamus, eius unde rem suscipit.
+                    </p>	
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio container ends  -->
+
+    <!-- Work conatiner starts -->
+    <section id="work" class="py-5">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Card Image</h4>
+                          <div class="d-flex justify-content-between">
+                            <p class="card-text">Travel Mobile App
+                            </p>
+                            <div>
+                                <a href="#" class="fas fa-copy"> Case Study</a>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="card-img-bottom" src="img/site1.jpg" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Card Image</h4>
+                          <div class="d-flex justify-content-between">
+                            <p class="card-text">Health Mobile App
+                            </p>
+                            <div>
+                                <a href="#" class="fas fa-copy"> Case Study</a>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="card-img-bottom" src="img/site2.jpg" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Card Image</h4>
+                          <div class="d-flex justify-content-between">
+                            <p class="card-text">Chat Mobile App
+                            </p>
+                            <div>
+                                <a href="#" class="fas fa-copy"> Case Study</a>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="card-img-bottom" src="img/site3.jpg" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Card Image</h4>
+                          <div class="d-flex justify-content-between">
+                            <p class="card-text">Fitness Mobile App
+                            </p>
+                            <div>
+                                <a href="#" class="fas fa-copy"> Case Study</a>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="card-img-bottom" src="img/site4.jfif" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Card Image</h4>
+                          <div class="d-flex justify-content-between">
+                            <p class="card-text">Service Mobile App
+                            </p>
+                            <div>
+                                <a href="#" class="fas fa-copy"> Case Study</a>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="card-img-bottom" src="img/site5.avif" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Card Image</h4>
+                          <div class="d-flex justify-content-between">
+                            <p class="card-text">Songs Mobile App
+                            </p>
+                            <div>
+                                <a href="#" class="fas fa-copy"> Case Study</a>
+                            </div>
+                          </div>
+                        </div>
+                        <img class="card-img-bottom" src="img/site6.png" alt="Card image" style="width:100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work container ends  -->
+
+    <!-- testimonial container starts -->
+    <section id="testimonial" class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="img/testimonial.jpg" alt="testimonial" width="100%">
+                </div>
+                <div class="col-12 col-md-6">
+                    <br><br>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus magnam tempore harum vero debitis repellat rem? Facilis, debitis rerum? Laudantium fuga maiores esse, qui tempora in repellat, at animi itaque ratione error reiciendis cumque nemo voluptatum quia ducimus sequi perspiciatis a inventore, alias libero? Laboriosam dolorem ipsum perspiciatis molestiae provident.
+                    </p>
+                    <h6>Emma Mayers</h6>
+                    <p>Ceo at Netflix.</p>
+                    <div class="d-flex justify-content-between">
+                      <h3>
+                        04 <span>/10</span>
+                    </h3>
+                    <div>
+                      <button class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="btn btn-outline-secondary">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <hr class="mt-5">
+          </section>
+          <!-- testimonial container ends  -->
+          
+      <!-- footer starts -->
+      <footer id="contact">
+      <div class="circle"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h2>Let's Hire me and make the Best Product</h2>
+          <p class="py-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque similique, quos sed optio minima aliquam at sit. Velit sit officiis facere iusto molestias dolorum sunt ullam laudantium. Eos, voluptate atque!
+          </p>
+          <button class="btn btn-outline-secondary"> <i class="fab fa-youtube"></i> Youtube</button>
+          <button class="btn btn-primary"> Contact Me</button>
+          </div>
+          <div class="col-12 col-md-6 pt-5 footer-img">
+            <img src="img/image2.png" alt="image" width="350px">
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends  -->
+
+  </body>
+</html>

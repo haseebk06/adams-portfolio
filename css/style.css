@@ -1,0 +1,265 @@
+@font-face {
+  font-family: "DMSans-Regular";
+  src: url("../fonts/DM_Sans/DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url("../fonts/DM_Sans/DMSans-Bold.ttf");
+}
+* {
+  font-family: "DMSans-Regular", sans-serif;
+}
+header .menu-extras {
+  display: none;
+}
+header nav ul {
+  list-style: none;
+}
+header nav .mynav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: 15px 100px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+header nav ul li a:hover {
+  color: #ffffff;
+}
+.menu-extras {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+.nav-colored {
+  background-color: #292935;
+  transition: all 0.5s;
+}
+.nav-transparent {
+  background-color: transparent;
+  transition: all 0.5s;
+}
+#menu-extra {
+  background-color: #292935;
+  position: fixed;
+  width: 100%;
+  top: 3.5rem;
+  left: -100%;
+  transition: all 0.5s;
+}
+#check {
+  display: none;
+}
+#check:checked ~ #menu-extra {
+  left: 0;
+}
+.fa-grin-beam {
+  color: #feba17;
+}
+.menu-interior {
+  position: absolute;
+  left: 20rem;
+}
+.bio {
+  color: #9f9eac;
+}
+.name {
+  color: #ffffff;
+  font-size: 80px;
+  font-family: "DMSans-Bold", sans-serif;
+}
+.divider {
+  background-color: #feba17;
+  opacity: 100% !important;
+  height: 5px !important;
+  border-radius: 5px;
+  width: 30%;
+}
+.social-icons {
+  list-style: none;
+  position: relative;
+  right: 30px;
+}
+.social-icons li a {
+  background-color: #474758;
+  color: #feba17;
+  border-radius: 50%;
+  display: block;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+}
+.social-icons li i {
+  padding: 5px;
+}
+.social-icons li {
+  margin: 20px 15px 0 0;
+}
+.services {
+  margin: 0 0 0 0px !important;
+}
+.image {
+  position: absolute;
+  position: absolute;
+  top: 4.5rem;
+  left: 30rem;
+  width: 385px;
+}
+.img-back {
+  background-color: #2d2d39;
+  border-radius: 50%;
+  height: 30rem;
+  width: 30rem;
+  position: absolute;
+  top: 5rem;
+  left: 26rem;
+  z-index: -1;
+}
+.paltforms-container {
+  padding: 20px;
+  background-color: #414050;
+  box-shadow: 0px 0px 5px 5px #2c2c2f;
+}
+.paltforms-container img {
+  padding: 20px;
+  background-color: #373646;
+}
+#Portfolio {
+  background-color: #282834;
+}
+#Portfolio hr {
+  width: 50%;
+  margin-left: 110px;
+}
+#Portfolio h2,
+h6 {
+  color: #ffffff;
+}
+#Portfolio h5 {
+  color: #feba17;
+}
+#Portfolio p {
+  color: #9f9eac;
+}
+.skills p {
+  padding: 20px;
+  background-color: #414050;
+}
+.skills span {
+  display: block;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+}
+.skills i {
+  color: #feba17;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  background-color: #373646;
+}
+#work h4,
+a {
+  color: #feba17;
+}
+#work a:hover {
+  color: #feba17;
+}
+#work p {
+  color: #ffffff;
+}
+#work img {
+  border-radius: 5px;
+}
+.card-body {
+  background-color: #282834;
+  border-radius: 10px;
+}
+.card {
+  background-color: #282834;
+  border: none !important;
+  border-radius: 10px;
+}
+#testimonial {
+  background-color: #2d2d39;
+}
+#testimonial p {
+  color: #9f9eac;
+  max-width: 500px;
+}
+#testimonial h3 {
+  color: #feba17;
+}
+#testimonial i {
+  color: #feba17;
+}
+#testimonial .btn:hover i {
+  color: #fff;
+}
+#testimonial span {
+  color: #9f9eac;
+  font-size: 16px;
+}
+hr {
+  background-color: #9f9eac;
+}
+footer {
+  background-color: #2d2d39;
+  color: #ffffff;
+}
+footer p {
+  color: #9f9eac;
+}
+footer .circle {
+  background-color: #373644;
+  border-radius: 50%;
+  height: 18rem;
+  width: 18rem;
+  position: absolute;
+  bottom: -158rem;
+  left: 53rem;
+  z-index: 0;
+}
+footer .footer-img {
+  z-index: 1;
+  padding-left: 70px;
+}
+@media only screen and (max-width: 991px) {
+  header nav {
+    display: none;
+  }
+  header .menu-extras {
+    display: block;
+  }
+  .image-container {
+    width: 100%;
+    display: inline;
+  }
+  .image {
+    position: relative;
+    left: 20%;
+    top: 48px;
+    width: 300px;
+  }
+  .img-back {
+    display: inline-block;
+    position: relative;
+    top: -22rem;
+    left: 60px;
+    width: 75%;
+    height: 85%;
+  }
+  .circle {
+    display: block;
+    bottom: -371rem !important;
+    left: 5rem !important;
+  }
+  .name {
+    font-size: 50px;
+  }
+}
