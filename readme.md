@@ -4,7 +4,7 @@
 
   <p>A <strong>Custom Portfolio</strong> design, that can help you creating your own portfolio, basically this design is a clone of the templates available at themeforest</p>
 
-👉 Live Demo: <a href='https://juniorawan06.github.io/adams-portfolio/](https://haseebk06.github.io/adams-portfolio/'>Live Demo</a>
+👉 Live Demo: [here](https://haseebk06.github.io/adams-portfolio/)
 
 <h3>Build with:</h3>
 
